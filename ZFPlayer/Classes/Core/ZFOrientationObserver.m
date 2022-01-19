@@ -284,7 +284,7 @@
 }
 
 - (void)enterFullScreen:(BOOL)fullScreen animated:(BOOL)animated {
-    [self enterFullScreen:fullScreen animated:animated];
+    [self enterFullScreen:fullScreen animated:animated completion:nil];
 }
 
 - (void)enterFullScreen:(BOOL)fullScreen animated:(BOOL)animated completion:(void (^ _Nullable)(void))completion {
